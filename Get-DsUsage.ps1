@@ -4,8 +4,8 @@ function Get-DsUsage {
   This commandlet provides a more complete look at a datastore than currently 
   provided by the Get-Datastore commandlet of the PowerCLI.  
 .DESCRIPTION
-  Currently the Get-Datastore commandlet provided by the VMWare's PowerCLI do not
-  show the provisioned space of a datastore.  If you are not familiar with 
+  Currently the Get-Datastore commandlet provided by the VMWare's PowerCLI does 
+  not show the provisioned space of a datastore.  If you are not familiar with 
   "Provisioned Space", this is the actual disk space that you have used/left on a 
   host machine.  Due to thin provisioning, it is often hard to tell how much space
   is actually left on a datastore. You can find the information from the storage
